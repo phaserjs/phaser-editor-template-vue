@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, onUnmounted, ref } from 'vue';
-import { EventBus } from './EventBus';
-import StartGame from './main';
+import { EventBus } from './game/EventBus';
+import StartGame from './game/main';
 
 // Save the current scene instance
 const scene = ref();
